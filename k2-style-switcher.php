@@ -1,14 +1,14 @@
 <?php
 /*
 Plugin Name: K2 Style Switcher
-Plugin URI: http://thecuriousfrog.com/projects/k2-style-switcher/
-Description: This plugin allows site visitors to change the active style when the excellent K2 theme is selected.
-Version: 1.1.2
-Author: Hugh Johnson
-Author URI: http://thecuriousfrog.com
+Plugin URI: http://xentek.net/code/wordpress/plugins/k2-style-switcher/
+Description: This WordPress plugin allows site visitors to change the active style in the K2 theme. Originaly created by <a href="http://thecuriousfrog.com/">Hugh Johnson</a>, but is now maintained by <a href="">XENTEK</a>.
+Version: 1.1.3
+Author: Eric Marden 
+Author URI: http://xentek.net/
 */
 /*
-	Copyright (C) 2008-2009 Hugh Johnson  (email : hugh.johnson@thecuriousfrog.com)
+	Copyright 2010 Eric Marden  (email : wp@xentek.net)
 
 	This program is free software: you can redistribute it and/or modify
 	it under the terms of the GNU General Public License as published by
@@ -24,7 +24,8 @@ Author URI: http://thecuriousfrog.com
 	along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 /*
-	This plugin is based on the K2 source files. It was originally written by Kimya Hasira (kimya.hasira@digitaldiversified.com)
+	This plugin is based on the K2 source files. It was originally written by Kimya Hasira (kimya.hasira@digitaldiversified.com).
+	This plugin was originally created by Hugh Johnson (hugh.johnson@thecuriousfrog.com), but is now maintained by Eric Marden (wp@xentek.net)
 */
 
 //Check plugin class has not already been defined

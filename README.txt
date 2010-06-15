@@ -1,12 +1,12 @@
 === K2 Style Switcher ===
-Contributors: thecuriousfrog
-Donate link: http://thecuriousfrog.com/projects/
+Contributors: xenlab, thecuriousfrog
+Donate link: http://j.mp/donate-to-xentek
 Tags: k2, style, style switcher, theme, theme switcher
 Requires at least: 2.8
-Tested up to: 2.8.5
-Stable tag: 1.1.2
+Tested up to: 2.9.2
+Stable tag: trunk
 
-This plugin allows site visitors to change the active style when the excellent K2 theme is selected.
+This WordPress plugin allows site visitors to change the active style in the K2 theme.
 
 == Description ==
 
@@ -14,7 +14,7 @@ This plugin is the equivalent of a theme switcher for styles applied to the K2 t
 
 The default K2 style to be applied to a given post or page can be specified using a parameter added to the URL, post or page meta data, or an overall site default.
 
-Style selections made by the user are persistent for the duration of their visit and overide default values, however they can be overidden using a URL parameter.
+Style selections made by the user are persistent for the duration of their visit and override default values, however they can be overridden using a URL parameter.
 
 == Installation ==
 
@@ -24,8 +24,8 @@ Style selections made by the user are persistent for the duration of their visit
 1. Upload the entire `k2-style-switcher` directory to the `/wp-content/plugins/` directory
 1. Activate the plugin through the 'Plugins' menu in WordPress
 1. Goto the K2 admin panel ('Appearance' > 'K2 Options') and select the K2 styles that you ALWAYS want to be applied to the site (these are called the 'Base Styles' in our terminology)
-1. Goto the K2 Style Switcher admin panel ('Appearance' > 'K2 Style Switcher') and select the K2 styles that you want visitor to be able to choose from. You may also want to customise the other settings at this point
-1. To display the Style Picker that allows visitors to change the active K2 Style, either use the included widget or place the following code where you want it to appear: `<?php k2ss_style_picker(); ?>`. If the widget is used then the format of the Style Picker is set via the widget options, otherwise the default format set in the K2 Style Switcher admin panel is used
+1. Goto the K2 Style Switcher admin panel ('Appearance' > 'K2 Style Switcher') and select the K2 styles that you want visitor to be able to choose from. You may also want to customize the other settings at this point
+1. To display the Style Picker that allows visitors to change the active K2 Style, either use the included widget or place the following code where you want it to appear: `<?php k2ss_style_picker(); ?>`. If the widget is used then the format of the Style Picker is set via the widget options, otherwise the default format set in the K2 Style Switcher admin panel is used.
 
 == Frequently Asked Questions ==
 
@@ -53,13 +53,22 @@ No. The style specified in the custom field will only be used for the post or pa
 
 = Why Isn't XYZ Working? =
 
-The K2 Style Switcher relies on various options set by K2. For it to function correctly please make sure that the latest versions of K2 and WordPress are installed. If you are still having problems then you can ask questions, leave comments or find more information at the plugin's homepage: [K2 Style Switcher](http://thecuriousfrog.com/projects/k2-style-switcher/ "K2 Style Switcher")
+The K2 Style Switcher relies on various options set by K2. For it to function correctly please make sure that the latest versions of K2 and WordPress are installed. If you are still having problems then you can ask questions, leave comments or find more information at the plugin's homepage: [K2 Style Switcher](http://xentek.net/code/wordpress/plugins/k2-style-switcher/ "K2 Style Switcher")
+
+= I want to help with development of this Plugin! =
+
+The project is now hosted on [github.com](http://github.com/xentek/mu-helpers). Just fork the project and send me a pull request.
+
+[New to git?](http://delicious.com/ericmarden/git)
 
 == Screenshots ==
 
 1. The K2 Style Switcher options panel (partial)
 
 == Changelog ==
+
+= 1.1.3 =
+* Cleaned up plugin header and readme as part of take over from original plugin author.
 
 = 1.1.2 =
 * Added `languages` folder for l10n files
