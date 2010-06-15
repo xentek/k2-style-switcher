@@ -1,0 +1,316 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Hugh Johnson
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/k2-style-switcher\n"
+"POT-Creation-Date: 2009-09-03 09:41+0000\n"
+"PO-Revision-Date: 2009-09-07 15:49+0100\n"
+"Last-Translator: Zeitdieb @ blog.zeitdieb.org <no-time@zeitdieb.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: k2-style-switcher.php:74
+msgid "Plugin Homepage"
+msgstr "Plugin Homepage"
+
+#: k2-style-switcher.php:75
+msgid "Plugin FAQs"
+msgstr "Plugin FAQs"
+
+#: k2-style-switcher.php:76
+msgid "Plugin Support Forum"
+msgstr "Plugin Support Forum"
+
+#: k2-style-switcher.php:88
+#, php-format
+msgid "The directory where k2 custom styles are stored is missing. The value set in the k2 options is: <strong>%s</strong>. For you to be able to use custom styles (and this plugin), you need to set the correct directory on the k2 options menu."
+msgstr "Das Verzeichnis in dem die K2 Styles gespeichert werden fehlt. Aktuell ist folgendes Verzeichnis eingestellt: <strong>%s</strong>. Um dieses Plugin und eigene Styles benutzen zu können, muss das richtige Verzeichnis eingestellt werden."
+
+#: k2-style-switcher.php:100
+msgid "K2 Style Switcher options have been updated."
+msgstr "Die K2 Style Wechsler Einstellungen wurden aktualisiert"
+
+#: k2-style-switcher.php:108
+msgid "Plugin Options"
+msgstr "Plugin Einstellungen"
+
+#: k2-style-switcher.php:110
+msgid "Click on the option names to display inline help"
+msgstr "Klicke auf den Namen der Einstellung um die Hilfe anzuzeigen"
+
+#: k2-style-switcher.php:134
+#: k2-style-switcher.php:165
+#: k2-style-switcher.php:177
+#: k2-style-switcher.php:207
+#: k2-style-switcher.php:219
+#: k2-style-switcher.php:231
+#: k2-style-switcher.php:243
+msgid "Click for Help!"
+msgstr "Hilfe!"
+
+#: k2-style-switcher.php:134
+msgid "Default Style:"
+msgstr "Default Style:"
+
+#: k2-style-switcher.php:158
+msgid "The site will be displayed using this style unless the visitor chooses another one"
+msgstr "Die Seite wird in diesem Style angezeigt solange der Besucher keinen anderen auswählt."
+
+#: k2-style-switcher.php:165
+msgid "Default Style Picker Format:"
+msgstr "Format des Style-Wählers:"
+
+#: k2-style-switcher.php:170
+#, php-format
+msgid "This option controls the way that list of available styles is displayed at the point where the template calls the %s function."
+msgstr "Diese Einstellung kontrolliert, wie die Liste verfügbarer Styles an der Stelle aussieht, an der das Template die %s Funktion aufruft."
+
+#: k2-style-switcher.php:177
+msgid "Footer Template:"
+msgstr "Footer Vorlage"
+
+#: k2-style-switcher.php:183
+msgid "The following macros are supported:"
+msgstr "Die folgenden Makros werden unterstützt:"
+
+#: k2-style-switcher.php:185
+msgid "%wporglink% - A link to the WordPress site (http://wordpress.org/)"
+msgstr "%wporglink% - Ein Link zur WordPress Seite"
+
+#: k2-style-switcher.php:186
+msgid "%k2comlink% - A link to the K2 site (http://getk2.com/)"
+msgstr "%k2comlink% - Ein Link zur K2 Seite (http://getk2.com/)"
+
+#: k2-style-switcher.php:187
+msgid "%bloginfoname% - The site title"
+msgstr "%bloginfoname% - Der Titel der Seite"
+
+#: k2-style-switcher.php:188
+msgid "%bloginfoversion% - The version of WordPress your site uses"
+msgstr "%bloginfoversion% - Die WordPress Version, die auf dieser Seite läuft"
+
+#: k2-style-switcher.php:189
+msgid "%k2infoversion% - The version of K2 your site uses"
+msgstr "%k2infoversion% - Die Version von K2, die auf dieser Seite läuft"
+
+#: k2-style-switcher.php:190
+msgid "%rssentries% - The URL for the site's RSS 2.0 feed (/feed)"
+msgstr "%rssentries% - Die URL für den RSS 2.0 Feed dieser Seite (/feed)"
+
+#: k2-style-switcher.php:191
+msgid "%rsscomments% - URL for the site's comments RSS 2.0 feed (/comments/feed)"
+msgstr "%rsscomments% - Die URL für den Kommentar-RSS 2.0 Feed (/comments/feed)"
+
+#: k2-style-switcher.php:192
+msgid "%authorname% - The author's name for the current K2 style"
+msgstr "%authorname% - Der Name vom Autor des aktuell gewählten K2 Styles"
+
+#: k2-style-switcher.php:193
+msgid "%authoruri% - The author's website for the current K2 style"
+msgstr "%authoruri% - Die Seite vom Autor des aktuell gewählten K2 Styles"
+
+#: k2-style-switcher.php:194
+msgid "%stylename% - The name of the current K2 style"
+msgstr "%stylename% - Der Name des aktuell gewählten K2 Styles"
+
+#: k2-style-switcher.php:195
+msgid "%styleuri% - The URL for the current K2 style's website"
+msgstr "%styleuri% - Die URL zur Seite des aktuell gewählten K2 Styles"
+
+#: k2-style-switcher.php:196
+msgid "%stylefooter% - The footer content taken from the current K2 style"
+msgstr "%stylefooter% - Der Footer-Inhalt aus dem atkuell gewählten K2 Style"
+
+#: k2-style-switcher.php:197
+msgid "%styleversion% - The version of the current K2 style"
+msgstr "%styleversion% - Die Version des aktuell gewählten K2 Styles"
+
+#: k2-style-switcher.php:198
+msgid "%stylecomments% - Any comments attached to the current K2 style"
+msgstr "%stylecomments% - Kommentare zu dem aktuell ausgewählten K2 Style"
+
+#: k2-style-switcher.php:207
+msgid "Display WordPress footer:"
+msgstr "WordPress Footer anzeigen:"
+
+#: k2-style-switcher.php:212
+#, php-format
+msgid "This option determines if the default WordPress footer ( \"%s\" ) is displayed"
+msgstr "Diese Einstellung legt fest, ob der standard Wordpress Footer ( \"%s\" ) angezeigt wird"
+
+#: k2-style-switcher.php:212
+msgid "Powered by"
+msgstr "Powered by"
+
+#: k2-style-switcher.php:212
+#: k2-style-switcher.php:523
+msgid "WordPress"
+msgstr "WordPress"
+
+#: k2-style-switcher.php:212
+#: k2-style-switcher.php:224
+msgid "and"
+msgstr "und"
+
+#: k2-style-switcher.php:212
+#: k2-style-switcher.php:524
+msgid "Loves you like a kitten."
+msgstr "Loves you like a kitten."
+
+#: k2-style-switcher.php:219
+msgid "Display feed links:"
+msgstr "Feed-Links anzeigen:"
+
+#: k2-style-switcher.php:224
+#, php-format
+msgid "This option determines if the feed links footer ( \"%s\" ) is displayed"
+msgstr "Diese Einstellung legt fest, ob der Feed-Links Footer( \"%s\" ) angezeigt wird"
+
+#: k2-style-switcher.php:224
+#: k2-style-switcher.php:528
+msgid "Entries Feed"
+msgstr "Artikel-Feed"
+
+#: k2-style-switcher.php:224
+#: k2-style-switcher.php:529
+msgid "Comments Feed"
+msgstr "Kommentar-Feed"
+
+#: k2-style-switcher.php:231
+msgid "Display base styles footer:"
+msgstr "Basis-Style Footer anzeigen:"
+
+#: k2-style-switcher.php:236
+msgid "This option determines if the footer for any base K2 styles is displayed"
+msgstr "Diese Einstellung legt fest, ob der Footer für einen K2 Basis-Style angezeigt wird"
+
+#: k2-style-switcher.php:243
+msgid "Display page stats:"
+msgstr "Seiten-Statistiken anzeigen:"
+
+#: k2-style-switcher.php:248
+#, php-format
+msgid "This option determines if the page stats footer ( \"%s\" ) is displayed"
+msgstr "Diese Einstellung legt fest, ob der Footer mit den Seiten-Statistiken  ( \"%s\" ) angezeigt wird"
+
+#: k2-style-switcher.php:248
+#, php-format
+msgid "%d queries. %.4f seconds."
+msgstr "%d Abfragen in %.4f Sekunden."
+
+#: k2-style-switcher.php:257
+#, php-format
+msgid "Select the styles you want website visitors to be able to choose from. Styles will only appear on this list if they are not in use by K2, to make a style available for selection you should uncheck the box next to it's name (or path) on the %s screen"
+msgstr "Wähle die Styles, aus denen die Besucher der Webseite wählen dürfen. In dieser Liste erscheinen nur Styles, die nicht bereits von K2 genutzt werden. Um einen Style hier verfügbar zu machen, sollte der Haken in der Box neben Ihrem Namen (oder Pfad) auf der Seite %s  entfernt werden."
+
+#: k2-style-switcher.php:257
+msgid "K2 Options"
+msgstr "K2 Einstellungen"
+
+#: k2-style-switcher.php:265
+msgid "Style"
+msgstr "Style"
+
+#: k2-style-switcher.php:266
+msgid "Author"
+msgstr "Autor"
+
+#: k2-style-switcher.php:267
+msgid "Version"
+msgstr "Version"
+
+#: k2-style-switcher.php:268
+msgid "Tags"
+msgstr "Tags"
+
+#: k2-style-switcher.php:278
+#, php-format
+msgid "There are %1s K2 styles in the current K2 styles directory ( %2s ) but they are all currently active"
+msgstr "Es befinden sich %1s K2 Styles im K2 Styles Verzeichnes ( %2s ) und alle sind zur Zeit aktiv"
+
+#: k2-style-switcher.php:280
+#, php-format
+msgid "There are no K2 styles in the current K2 styles directory ( %s )"
+msgstr "Es sind keine K2 Styles im K2 Styles Verzeichnes ( %s )"
+
+#: k2-style-switcher.php:314
+msgid "Save Changes"
+msgstr "Änderungen speichern"
+
+#: k2-style-switcher.php:319
+msgid "Footer Preview"
+msgstr "Footer Vorschau"
+
+#: k2-style-switcher.php:324
+msgid "Support and Further Info"
+msgstr "Support und weitere Informationen"
+
+#: k2-style-switcher.php:325
+#, php-format
+msgid "Do you have a question or problem? Visit the %s homepage and leave a comment"
+msgstr "Sollten Fragen oder Probleme auftauchen, besuche einfach die %s Seite und schreibe einen Kommentar"
+
+#: k2-style-switcher.php:447
+msgid "Go!"
+msgstr "Los!"
+
+#: k2-style-switcher.php:455
+msgid "K2 Style Switcher:"
+msgstr "K2 Style Wechsler:"
+
+#: k2-style-switcher.php:455
+msgid "On this page you should select ONLY the styles that should applied in addition to the style chosen using the K2 Style Switcher."
+msgstr "Auf dieser Seite sollten NUR Styles ausgewählt werden, die zusätzlich zu einem mit dem K2 Style Wechsler gewählten Style, angewendet werden sollen."
+
+#: k2-style-switcher.php:524
+msgid "K2"
+msgstr "K2"
+
+#: k2-style-switcher.php:839
+msgid "A style picker allowing site visitors to change the active style when the K2 theme is active"
+msgstr "Ein Style Wähler, der den Besucher der Seite erlaubt, den Style der Seite zu wechseln, wenn das K2 Design genutzt wird."
+
+#. #-#-#-#-#  plugin.pot (PACKAGE VERSION)  #-#-#-#-#
+#. Plugin Name of an extension
+#: k2-style-switcher.php:880
+msgid "K2 Style Switcher"
+msgstr "K2 Style Switcher"
+
+#: k2-style-switcher.php:886
+msgid "Title:"
+msgstr "Titel:"
+
+#: k2-style-switcher.php:890
+msgid "Style Picker Format:"
+msgstr "Format des Style Wählers:"
+
+#: k2-style-switcher.php:892
+msgid "Unordered List"
+msgstr "Unsortierte Liste"
+
+#: k2-style-switcher.php:893
+msgid "Dropdown Menu"
+msgstr "Dropdown Menü"
+
+#. Plugin URI of an extension
+msgid "http://thecuriousfrog.com/projects/k2-style-switcher/"
+msgstr "http://thecuriousfrog.com/projects/k2-style-switcher/"
+
+#. Description of an extension
+msgid "This plugin allows site visitors to change the active style when the excellent K2 theme is selected."
+msgstr "Dieses Plugin erlaubt es Besuchern Ihrer Seite das Aussehen durch Wechseln des aktiven Styles zu verändern, sofern das ausgezeichnete K2 Theme genutzt wird."
+
+#. Author of an extension
+msgid "Hugh Johnson"
+msgstr "Hugh Johnson"
+
+#. Author URI of an extension
+msgid "http://thecuriousfrog.com"
+msgstr "http://thecuriousfrog.com"
+
